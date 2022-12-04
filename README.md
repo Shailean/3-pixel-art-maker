@@ -1,16 +1,17 @@
 # Pixel Art Maker Project
 
-## Table of Contents
+<img src="/pixel-art-maker.png" alt="" width="250" height=""/>&nbsp;>
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+## Project Requirements
 
-## Instructions
+Build a single-page web app that allows users to draw pixel art on a customizable canvas.
 
-To get started, open `designs.js` and start building out the app's functionality.
+Starter code is provided, including HTML and CSS, to build the application. Write JavaScript code that lets the user create a grid of squares representing their design, and apply colors to those squares to create a digital masterpiece.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+Users should be able to:
 
-## Contributing
+1. Dynamically set the size of the table as an _N_ by _M_ grid.
+2. Choose a color.
+3. Click a cell in the grid to fill that cell with the chosen color.
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+The primary task is to implement the makeGrid() function, that dynamically creates a grid that the user can interact with.
