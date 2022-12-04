@@ -7,9 +7,9 @@ const gridCell = document.querySelector('#inputWidth'); //td
 
 // When size is submitted by the user, call makeGrid()
 userInput.addEventListener('submit', function(changeGridSize) {
-  changeGridSize.preventDefault(); // prevent grid from defaulting to value of 1 
-  grid.textContent = ""; // reset grid
-  makeGrid(); // create the number of rows and cells based on user input
+  changeGridSize.preventDefault(); //prevent grid from defaulting to value of 1 
+  grid.textContent = ""; //reset grid
+  makeGrid(); //create the number of rows and cells based on user input
 });
 
 function makeGrid() {
@@ -27,10 +27,8 @@ function makeGrid() {
 // Select color input
 // When table cell is clicked, call changeColor()
 const colorSelect = document.querySelector('#colorPicker');
-grid.addEventListener('click', function(color) {
-  if (color.target.nodeName === 'TD') { // when a cell is clicked, change cell color
-    color.target.style.backgroundColor = colorSelect.value;
+grid.addEventListener('click', function(changeColor) {
+  if (changeColor.target.nodeName === 'TD') { // when a cell is clicked, change cell color
+    changeColor.target.style.backgroundColor = colorSelect.value;
   }
-}); 
-
-
+});
