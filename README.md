@@ -1,5 +1,7 @@
 # Pixel Art Maker Project
 
+<br>
+
 <img src="/pixel-art-maker.png" alt="" width="500" height=""/>&nbsp;
 
 <br>
