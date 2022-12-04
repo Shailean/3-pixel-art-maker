@@ -1,6 +1,8 @@
 # Pixel Art Maker Project
 
-<img src="/pixel-art-maker.png" alt="" width="250" height=""/>&nbsp;>
+<img src="/pixel-art-maker.png" alt="" width="500" height=""/>&nbsp;
+
+<br>
 
 ## Project Requirements
 
